@@ -55,3 +55,29 @@ Traditional supervised learning needs labeled data. This project shows how a mod
 ---
 
 ## 🚀 Pipeline
+
+Unlabeled Card Images
+↓
+Data Augmentation (crop, flip, color jitter, grayscale)
+↓
+ResNet18 Encoder + Projection Head (SimCLR)
+↓
+NT-Xent Contrastive Loss → Train Encoder
+↓
+Freeze Encoder → Add Linear Classifier
+↓
+Evaluate on Labeled Test Set
+
+---
+
+## 📁 Repository Structure
+├── my_card_images/                       # Dataset (train/valid/test)
+├── 04_Self_Supervised_Learning.ipynb     # Main notebook (SSL + evaluation)
+├── README.md
+└── LICENSE
+
+---
+
+## ⭐ Key Takeaway
+
+This project demonstrates that useful visual representations can be learned **without any manual labeling** — a powerful technique when labeled data is scarce or expensive to collect.
