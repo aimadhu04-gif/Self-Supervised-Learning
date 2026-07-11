@@ -22,7 +22,7 @@ Traditional supervised learning needs labeled data. This project shows how a mod
 
 ## 🗂️ Dataset
 
-- 🎴 **53-class** playing card dataset (Ace, King, Queen, Jack, Joker, etc.)
+- 🎴53-class** playing car **d dataset (Ace, King, Queen, Jack, Joker, etc.)
 - 📊 **7,624** train images | **265** test images | **265** validation images
 - 🖼️ Image size: `200 x 200 x 3`
 
